@@ -1,4 +1,7 @@
-Dr Ian Malcolmnak igaza volt: az élet utat tör. A Jurassic Parkban szabályozatlan körülmények között is szaporodnak a dinoszauruszok. Hogy fel lehessen mérni a probléma nagyságát, a gondozók összegyűjtötték egy adatbázisba, hogy a fajokból mennyi a hivatalos egyedszám, amennyinek lennie kéne, és ehhez képest a park kamerái és mozgásérzékelői hányat találtak.
+Dr Ian Malcolmnak igaza volt: az élet utat tör. A Jurassic Parkban szabályozatlan körülmények között 
+is szaporodnak a dinoszauruszok. Hogy fel lehessen mérni a probléma nagyságát, a gondozók összegyűjtötték egy 
+adatbázisba, hogy a fajokból mennyi a hivatalos egyedszám, amennyinek lennie kéne, és ehhez képest a park 
+kamerái és mozgásérzékelői hányat találtak.
 
 # Adatbázis
 
@@ -20,10 +23,17 @@ Például:
 
 # Java alkalmazás
 
-A `JurassicPark` osztály, konstruktor paraméterekben kapja meg az adatbázis eléréshez szükséges adatokat.
+A `JurassicPark` osztály, konstruktor paraméterekben 
+kapja meg az adatbázis eléréshez szükséges adatokat.
 
-Készítsd el a `checkOverpopulation` metódust! A `checkOverpopulation` metódus feladata, hogy térjen vissza azoknak a fajtáknak a nevével, amiknél a valós létszám magasabb, mint az elvárt (a fenti példában a Maiasaurus, a Velociraptor és a Hypsilophodontida), ABC szerint növekvő sorrendben.
+Készítsd el a `checkOverpopulation` metódust! 
+A `checkOverpopulation` metódus feladata, hogy térjen 
+vissza azoknak a fajtáknak a nevével, amiknél a valós 
+létszám magasabb, mint az elvárt 
+(a fenti példában a Maiasaurus, a Velociraptor és a 
+Hypsilophodontida), ABC szerint növekvő sorrendben.
 
-Ha az adatbázis üres, akkor a metódus térjen vissza üres listával.
+Ha az adatbázis üres, akkor a metódus térjen vissza
+üres listával.
 
 A megoldás során használj `PreparedStatement`-et!
